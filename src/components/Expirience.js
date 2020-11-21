@@ -10,7 +10,7 @@ export default function Experience(){
 <Img src={Karre} />
 <h2>Praxiserfahrung</h2>
 
-h3 <H3>Junior QA (Werkstudent) </H3>
+<H3>Junior QA (Werkstudent) </H3>
 <p> bei SinnerSchrader Commerce GmbH</p>
 <p>Januar 2018 - Dezember 2018</p>
 <p>Aufgabe: Qualitätssicherung von Webseiten</p>
