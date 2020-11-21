@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/marleen-stueber/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/marleen-stueber/static/js/main.9c8a40be.chunk.js",
-    "main.js.map": "/marleen-stueber/static/js/main.9c8a40be.chunk.js.map",
-    "runtime-main.js": "/marleen-stueber/static/js/runtime-main.b2912b6f.js",
-    "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.b2912b6f.js.map",
-    "static/js/2.82985724.chunk.js": "/marleen-stueber/static/js/2.82985724.chunk.js",
-    "static/js/2.82985724.chunk.js.map": "/marleen-stueber/static/js/2.82985724.chunk.js.map",
-    "static/js/3.be7a9691.chunk.js": "/marleen-stueber/static/js/3.be7a9691.chunk.js",
-    "static/js/3.be7a9691.chunk.js.map": "/marleen-stueber/static/js/3.be7a9691.chunk.js.map",
+    "main.css": "/marleen-stueber/static/css/main.06e939ba.chunk.css",
+    "main.js": "/marleen-stueber/static/js/main.871694d4.chunk.js",
+    "main.js.map": "/marleen-stueber/static/js/main.871694d4.chunk.js.map",
+    "runtime-main.js": "/marleen-stueber/static/js/runtime-main.ff2de303.js",
+    "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.ff2de303.js.map",
+    "static/js/2.d2a7b3e0.chunk.js": "/marleen-stueber/static/js/2.d2a7b3e0.chunk.js",
+    "static/js/2.d2a7b3e0.chunk.js.map": "/marleen-stueber/static/js/2.d2a7b3e0.chunk.js.map",
+    "static/js/3.9f9e56a6.chunk.js": "/marleen-stueber/static/js/3.9f9e56a6.chunk.js",
+    "static/js/3.9f9e56a6.chunk.js.map": "/marleen-stueber/static/js/3.9f9e56a6.chunk.js.map",
     "index.html": "/marleen-stueber/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/marleen-stueber/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.82985724.chunk.js.LICENSE.txt": "/marleen-stueber/static/js/2.82985724.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/marleen-stueber/static/media/logo.103b5fa1.svg"
+    "static/css/main.06e939ba.chunk.css.map": "/marleen-stueber/static/css/main.06e939ba.chunk.css.map",
+    "static/js/2.d2a7b3e0.chunk.js.LICENSE.txt": "/marleen-stueber/static/js/2.d2a7b3e0.chunk.js.LICENSE.txt",
+    "static/media/GameOverDialog.021a01b0.png": "/marleen-stueber/static/media/GameOverDialog.021a01b0.png",
+    "static/media/ingame_view.e6693597.png": "/marleen-stueber/static/media/ingame_view.e6693597.png",
+    "static/media/marleen_stueber_quadrat.1f0e51d8.png": "/marleen-stueber/static/media/marleen_stueber_quadrat.1f0e51d8.png",
+    "static/media/startArea.749f4b87.png": "/marleen-stueber/static/media/startArea.749f4b87.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2912b6f.js",
-    "static/js/2.82985724.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.9c8a40be.chunk.js"
+    "static/js/runtime-main.ff2de303.js",
+    "static/js/2.d2a7b3e0.chunk.js",
+    "static/css/main.06e939ba.chunk.css",
+    "static/js/main.871694d4.chunk.js"
   ]
 }
