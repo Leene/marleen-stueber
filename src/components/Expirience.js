@@ -10,17 +10,17 @@ export default function Experience(){
 <Img src={Karre} />
 <h2>Praxiserfahrung</h2>
 
-<h3>Junior QA (Werkstudent) </h3>
+h3 <H3>Junior QA (Werkstudent) </H3>
 <p> bei SinnerSchrader Commerce GmbH</p>
 <p>Januar 2018 - Dezember 2018</p>
 <p>Aufgabe: Qualitätssicherung von Webseiten</p>
 
-<h3>Projektassistenz</h3>
+<H3>Projektassistenz</H3>
 <p> bei sitegeist neos solutions GmbH</p>
 <p>März  2015 - November 2017</p>
 <p>Aufgaben: Contentpflege, Bildbearbeitung, Präsentationsvorbereitung</p>
 
-<h3>Praktikantin der Grafik</h3>
+<H3>Praktikantin der Grafik</H3>
 <p>bei spotsonfire GmbH, Communicators GmbH &amp; Co.KG, submedia GmbH</p>
 <p>März 2007 - Juni 2009</p>
 <p>Aufgaben: Illustration, Bildbearbeitung, Logoentwicklung</p>
@@ -28,6 +28,10 @@ export default function Experience(){
 </Section> 
 }
 
+const H3 = styled.h3`
+padding-top:50px;
+
+`
 const Section = styled.section`
 background-color:#59636C;
 padding-bottom:150px;
