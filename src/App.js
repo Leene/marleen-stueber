@@ -7,7 +7,7 @@ import Header from './components/Header'
 import Education from './components/Education'
 import Expirience from './components/Expirience'
 import Projects from './components/Projects'
-import { COLORS } from './constants'
+import { COLORS, VIEWPORT } from "./constants";
 import Contact from "./components/Contact";
 
 function App() {
@@ -42,10 +42,6 @@ function App() {
                 </Svg>
                 <Expirience />
                 <Footer>
-                <ContactDiv>
-                    <Contact/>
-                </ContactDiv>
-                
 
                     <Svg2
                         xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +53,9 @@ function App() {
                             d="M0,96L1440,224L1440,320L0,320Z"
                         ></path>
                     </Svg2>
-                  
+                    <ContactDiv>
+                    <Contact/>
+                </ContactDiv>
                     <p>© 2020 Marleen Stüber</p>
                 </Footer>
             </Wrap>
@@ -72,13 +70,30 @@ const APP = styled.div`
     flex-direction: column;
     height: 100%;
     color: rgb(${COLORS.lightText});
+
+    & h2{
+
+        color:${COLORS.headline};
+        text-align:center;
+    }
 `
 
 const Wrap = styled.div`
 background-color: #46515b;
     
-    padding:0;
+    padding:0px;
     margin:0;
+
+    ${VIEWPORT.small} {
+    }
+    
+    ${VIEWPORT.medium} {
+    }
+    
+    ${VIEWPORT.large} {
+    }
+
+
 `
 const Svg = styled.svg`
 
@@ -93,7 +108,22 @@ const Svg2 = styled.svg`
     
 `
 const ContactDiv =styled.div`
-margin-bottom: -100px;
+
+
+
+${VIEWPORT.small} {
+    margin-top: -70px;
+}
+
+${VIEWPORT.medium} {
+    margin-top: -100px;
+}
+
+${VIEWPORT.large} {
+    margin-top: -180px;
+}
+
+
 
 `
 const Footer = styled.footer`

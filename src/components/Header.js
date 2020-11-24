@@ -75,16 +75,14 @@ const Profil = styled.section`
 
   margin: 0 5vw;
   ${VIEWPORT.small} {
-    border: 3px solid blue;
+   
   }
 
   ${VIEWPORT.medium} {
-    //justify-content: space-beetween;
-    border: 3px solid red;
+   
   }
 
   ${VIEWPORT.large} {
-    //justify-content: space-beetween;
 
     width: 60vw;
   }
@@ -114,19 +112,19 @@ const ImgLeft = styled.img`
 
   ${VIEWPORT.small} {
     display: none;
-    border: 3px solid yellow;
+    
   }
 
   ${VIEWPORT.medium} {
     height: 300px;
 
-    border: 3px solid red;
+  
   }
 
   ${VIEWPORT.large} {
     height: 350px;
 
-    border: 3px solid hotpink;
+    
   }
 `;
 
@@ -139,17 +137,17 @@ const ImgCenter = styled.img`
   margin-top: 30px;
 
   ${VIEWPORT.small} {
-    border: 3px solid yellow;
+   
   }
 
   ${VIEWPORT.medium} {
     display: none;
-    border: 3px solid green;
+   
   }
 
   ${VIEWPORT.large} {
     display: none;
-    border: 3px solid hotpink;
+  
   }
 `;
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Talar from '../img/icon_talar_white.png'
-import { COLORS } from '../constants'
+import { COLORS, VIEWPORT } from "../constants";
+
 
 export default function Education() {
     return (
@@ -51,7 +52,34 @@ export default function Education() {
                         <Tag>Postman</Tag>
                     </div>
                 </DIV>
-                <h2>Bachelor-Studium Media Systems an der HAW </h2>
+
+                <MiddleDIV>
+                    <div>
+                        <Tag>Funktionale Programmierung</Tag>
+                        <Tag>JavaScript ES2020</Tag>
+                        <Tag>Git Workflow</Tag>
+                    </div>
+                    <div>
+                        <Tag>Shell</Tag>
+                        <Tag>Bootstrap</Tag>
+                        <Tag>HTML5</Tag>
+                        <Tag>CSS3</Tag>
+                        <Tag>Node.js</Tag>
+                        <Tag>npm</Tag>
+                        <Tag>React.js</Tag>
+                    </div>
+                    <div>
+                        <Tag>JSX</Tag>
+                        <Tag>Cypress</Tag>
+                        <Tag>Storybook</Tag>
+                        <Tag>TDD</Tag>
+                        <Tag>Scrum</Tag>
+                        <Tag>Kanban</Tag>
+                        <Tag>Postman</Tag>
+                    </div>
+                </MiddleDIV>
+
+                <h3>Bachelor-Studium Media Systems an der HAW </h3>
                 <LeftText>
                     <p>März 2012 - Mai 2020</p>
                     <ul>
@@ -68,7 +96,7 @@ export default function Education() {
                         <li>05/2020 Exmatrikulation ohne Abschluss</li>
                     </ul>
                 </LeftText>
-                <h2>Ausbildung zur Mediengestalterin Digital/Print</h2>
+                <h3>Ausbildung zur Mediengestalterin Digital/Print</h3>
                 <LeftText>
                 
                 <p>Oktober 2005 - Oktober 2008</p>
@@ -86,23 +114,82 @@ export default function Education() {
     )
 }
 
+
+
+
+
+
 const Section = styled.section``
 
 const LeftText = styled.div`
     text-align: left;
-    margin: 0 30%;
+    margin: 0 30vw;
     font-size: 1.2em;
     & li {
         padding: 10px 0;
         
     }
+
+${VIEWPORT.small} {
+    margin: 0 5vw;
+}
+
+${VIEWPORT.medium} {
+    margin: 0 10vw;
+}
+
+${VIEWPORT.large} {
+
+
+}
+
+
+
 `
 
 const DIV = styled.div`
     display: flex;
     flex-direction: column;
     width: 100vw;
+
+    ${VIEWPORT.small} {
+        
+    }
+    
+    ${VIEWPORT.medium} {
+        display:none;
+    }
+    
+    ${VIEWPORT.large} {
+       
+    }
+
+
 `
+
+
+
+const MiddleDIV = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    ${VIEWPORT.small} {
+                display:none;
+
+    }
+    
+    ${VIEWPORT.medium} {
+    }
+    
+    ${VIEWPORT.large} {
+        display:none;
+
+    }
+
+
+`
+
 
 const Tag = styled.button`
     margin: 5px;
@@ -124,5 +211,18 @@ const Tag = styled.button`
 const Img = styled.img`
     height: 150px;
     opacity: 0.2;
-    margin-top: -150px;
+    margin-top:0px;
+
+
+    ${VIEWPORT.small} {
+    
+    }
+  
+    ${VIEWPORT.medium} {
+     
+    }
+  
+    ${VIEWPORT.large} {
+      margin-top: -150px;
+    }
 `
