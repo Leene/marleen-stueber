@@ -8,6 +8,7 @@ import Education from './components/Education'
 import Expirience from './components/Expirience'
 import Projects from './components/Projects'
 import { COLORS } from './constants'
+import Contact from "./components/Contact";
 
 function App() {
     return (
@@ -41,6 +42,11 @@ function App() {
                 </Svg>
                 <Expirience />
                 <Footer>
+                <ContactDiv>
+                    <Contact/>
+                </ContactDiv>
+                
+
                     <Svg2
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 1440 320"
@@ -51,6 +57,7 @@ function App() {
                             d="M0,96L1440,224L1440,320L0,320Z"
                         ></path>
                     </Svg2>
+                  
                     <p>© 2020 Marleen Stüber</p>
                 </Footer>
             </Wrap>
@@ -84,6 +91,10 @@ const Svg2 = styled.svg`
     margin-top: -250px;
     
     
+`
+const ContactDiv =styled.div`
+margin-bottom: -100px;
+
 `
 const Footer = styled.footer`
 background-color: ${COLORS.footer};
