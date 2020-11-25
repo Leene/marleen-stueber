@@ -11,10 +11,10 @@ export default function Education() {
                 {' '}
                 {/* Aus-/Fortbildungen */}
                 <Img src={Talar} />
-                <h2>Aus- und Fortbildungen (Auszug)</h2>
-                <h3>Web Developer Bootcamp</h3>
+                <h3>Aus- und Fortbildungen (Auszug)</h3>
+                <h4>Web Developer Bootcamp</h4>
                 <LeftText>
-                    <p>Januar - März 2020</p>
+                    <h6>Januar - März 2020</h6>
                     <ul>
                         <li>
                             3-monatige Vollzeitfortbildung bei neuefische GmbH
@@ -24,7 +24,7 @@ export default function Education() {
                             Entwicklung einer Mobile-App als Abschlussprojekt
                         </li>
                     </ul>
-                    <h4>Vermittlete Inhalte </h4>
+                    <h5>Vermittlete Inhalte </h5>
                 </LeftText>
                 
                 <DIV>
@@ -78,10 +78,10 @@ export default function Education() {
                         <Tag>Postman</Tag>
                     </div>
                 </MiddleDIV>
-
-                <h3>Bachelor-Studium Media Systems an der HAW </h3>
+<HR/>
+                <h4>Bachelor-Studium Media Systems (HAW)</h4>
                 <LeftText>
-                    <p>März 2012 - Mai 2020</p>
+                    <h6>März 2012 - Mai 2020</h6>
                     <ul>
                         <li>
                             entspricht inhaltlich einem Studium der
@@ -89,17 +89,19 @@ export default function Education() {
                         </li>
                         <li>
                             Kenntnisse u.a.: Java 8, MySQL, Logik, Relationale
-                            Datenbanken, Objekorientierte Programmierung,
+                            Datenbanken, Objektorientierte Programmierung,
                             Mathemathik für Informatiker, Motion Capture,
                             Assembler, Ruby, Verschlüsselungsalgorithmen
                         </li>
                         <li>05/2020 Exmatrikulation ohne Abschluss</li>
                     </ul>
                 </LeftText>
-                <h3>Ausbildung zur Mediengestalterin Digital/Print</h3>
+                <HR/>
+
+                <h4>Ausbildung zur Mediengestalterin Digital/Print</h4>
                 <LeftText>
                 
-                <p>Oktober 2005 - Oktober 2008</p>
+                <h6>Oktober 2005 - Oktober 2008</h6>
                 <ul>
                     <li>
                         Kenntnisse in gängigen Grafikprogrammen,
@@ -117,6 +119,29 @@ export default function Education() {
 
 
 
+const HR = styled.hr`
+
+width:90vw;
+border-bottom:1px;
+margin-top: 40px;
+color: rgba(${COLORS.lightText}, 0.2);
+
+
+
+${VIEWPORT.small} {
+}  
+
+${VIEWPORT.medium} {
+  
+}
+
+${VIEWPORT.large} {
+
+    width:60vw;
+
+
+}
+`
 
 
 const Section = styled.section``

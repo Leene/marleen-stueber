@@ -11,10 +11,20 @@ export default function Projects() {
         <Section id="projects">
           
 <Icon src={Klammer} />
-            <h2>Projekte</h2>
-            <h3>Emmet Typing Game</h3>
+            <h3>Projekte</h3>
+            <h4>Emmet Typing Game</h4>
             <p> Abschlussprojekt (Web Developer Bootcamp Januar - März 2020)</p>
             
+            <URLBtnDiv>
+            <URLBtn
+                title="Zum Github-Repository von Emmet Typing Game"
+                href="https://github.com/Leene/capstone-project"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Git-Repository
+            </URLBtn> 
+            </URLBtnDiv>
             <Screens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -31,6 +41,8 @@ export default function Projects() {
             </Screens>
 
 
+
+            <h6>Codesandbox</h6>
             <SmallScreens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -54,19 +66,56 @@ export default function Projects() {
                     allow=" accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
                 ></IFrame>
+                <SmallIFrame
+                    src="https://codesandbox.io/embed/emmet-typing-game-76fn3?fontsize=14&hidenavigation=1&theme=dark&view=editor&editorsize=20"
+                    title="Emmet Typing Game"
+                    allow=" accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+                ></SmallIFrame>
+                
             </div>
+    
         </Section>
     )
 }
+
+
+const URLBtnDiv = styled.div`
+margin-top:50px;
+
+
+`
+
+const URLBtn = styled.a`
+
+cursor: pointer;
+    background-color: rgba(${COLORS.lightText},0.3);
+    text-transform: uppercase;
+    color: rgb(${COLORS.lightText});
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: 1px 2px 3px 3px rgba(58, 32, 10, 0.2);
+    
+    padding: 10px;
+    &:hover {
+        background-color: ${COLORS.headline};
+    }
+`
+
+
+
 const Section = styled.section`
 background-color:#59636C;
 margin-top:-5px;
-
+margin-bottom:50px;
 ${VIEWPORT.small} {
 }
 
 ${VIEWPORT.medium} {
-    
+    margin-top:-40px;
+   
 }
 
 ${VIEWPORT.large} {
@@ -107,16 +156,7 @@ margin: 20px 0;
         ${VIEWPORT.large} {
            
         }
-        
-
-
-
     }
-    
-
-
-
-    
 
 `
 
@@ -143,6 +183,7 @@ const IMG = styled.img`
     
 `
 const Screens = styled.div`
+margin-top:50px;
     display: flex;
     justify-content: center;
 
@@ -192,9 +233,48 @@ const IFrame = styled.iframe`
     width: 860px;
     height: 667px;
     margin-top: 50px;
-    margin-bottom: 150px;
-    
+    margin-bottom: 50px;
+    ${VIEWPORT.small} {
+    display:none;
+    }
+  
+    ${VIEWPORT.medium} {
+        display:none;
+
+    }
+  
+    ${VIEWPORT.large} {
+     
+    }
     `
+
+
+const SmallIFrame = styled.iframe`
+    overflow: hidden;
+    border: 0;
+    box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
+    width: 90vw;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    ${VIEWPORT.small} {
+    
+    }
+  
+    ${VIEWPORT.medium} {
+     
+    }
+  
+    ${VIEWPORT.large} {
+      
+      display:none;
+
+    }
+    `
+
+
+
     const Icon = styled.img`
     height:150px;
     opacity:0.2;

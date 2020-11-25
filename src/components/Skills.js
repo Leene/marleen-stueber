@@ -9,11 +9,11 @@ export default function Skills() {
       {" "}
       {/* Computerkennnisse */}
       <Img src={Maus} />
-      <H2>Computerkenntnisse</H2>
+      <H3>Computer&shy;kenntnisse</H3>
       <Table>
         <tr>
           <td>
-            <H3>Fortgeschritten</H3>
+            <H4>Fortgeschritten</H4>
           </td>
           <TD>
             <p>
@@ -24,7 +24,7 @@ export default function Skills() {
         </tr>
         <tr>
           <td>
-            <H3>Grundlagen</H3>
+            <H4>Grundlagen</H4>
           </td>
           <TD>
             <p>
@@ -37,7 +37,7 @@ export default function Skills() {
       <SmallTable>
         <tr>
           <td>
-            <H3>Fortgeschritten</H3>
+            <H4>Fortgeschritten</H4>
           </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@ export default function Skills() {
         </tr>
         <tr>
           <td>
-            <H3>Grundlagen</H3>
+            <H4>Grundlagen</H4>
           </td>
         </tr>
         <tr>
@@ -66,19 +66,22 @@ export default function Skills() {
   );
 }
 
-const H3 = styled.h3`
+const H4 = styled.h4`
   text-align: left;
+  
   ${VIEWPORT.small} {
+    margin-bottom: 0px;
   }
 
   ${VIEWPORT.medium} {
+    margin-bottom: 0px;
   }
 
   ${VIEWPORT.large} {
   }
 `;
 
-const H2 = styled.h2`
+const H3 = styled.h3`
   ${VIEWPORT.small} {
     text-align: left;
     margin-left: 5vw;

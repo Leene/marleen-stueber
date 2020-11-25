@@ -15,10 +15,12 @@ export default function Header() {
         <Profil>
           {/* Profil */}
           <DIV>
-            <h1>Marleen Stüber</h1>
-
+            <TitleDiv>
+            <H1>Marleen Stüber</H1>
+<H2>Junior Web Developer</H2>
+</TitleDiv>
             <ImgCenter src={meinAntlitz} />
-            <h3>Junior Web Developer</h3>
+            
             <P>
               Ich bin ehemalige Studentin der Medieninformatik und seit März
               2020 Absolventin des Web Developer Bootcamps der neuefische GmbH.
@@ -68,22 +70,87 @@ const P = styled.p`
   ${VIEWPORT.large} {
   }
 `;
+const TitleDiv = styled.div`
+
+
+  ${VIEWPORT.small} {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    width:90vw;
+  }
+
+  ${VIEWPORT.medium} {
+  }
+
+  ${VIEWPORT.large} {
+  }
+`;
+
+
+
+
+
+
+const H1 = styled.h1`
+text-align:right;
+
+${VIEWPORT.small} {
+  margin-right:5px;
+  text-align:center;
+}
+
+${VIEWPORT.medium} {
+ 
+}
+
+${VIEWPORT.large} {
+
+  
+}
+`
+const H2 = styled.h2`
+//border: 1px solid black;
+
+text-align:right;
+margin-top:-65px;
+width:100%;
+${VIEWPORT.small} {
+  //border-top: 1px solid rgb(${COLORS.lightText});
+  text-align:center;
+  margin-top:-30px;
+  padding-top:10px;
+}
+
+${VIEWPORT.medium} {
+  text-align:center;
+  margin-top:-30px;
+  
+}
+
+${VIEWPORT.large} {
+  width:97%;
+
+}
+`
 
 
 const Profil = styled.section`
   display: flex;
-
-  margin: 0 5vw;
+  
+ 
   ${VIEWPORT.small} {
+    margin: 0 5vw;
    
+  
   }
 
   ${VIEWPORT.medium} {
-   
+    margin: 0 5vw;
   }
 
   ${VIEWPORT.large} {
-
+    margin: 0 15vw;
     width: 60vw;
   }
 `;
@@ -98,7 +165,7 @@ const DIV = styled.div`
   }
 
   ${VIEWPORT.medium} {
-    width: 50vw;
+    width: 70vw;
   }
 
   ${VIEWPORT.large} {
@@ -109,6 +176,7 @@ const ImgLeft = styled.img`
   border-radius: 50%;
   box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
   margin-top: 100px;
+  margin-left:10px;
 
   ${VIEWPORT.small} {
     display: none;
@@ -165,5 +233,6 @@ const HEADER = styled.header`
   /* background-image: linear-gradient(${COLORS.header}, ${COLORS.background}); */
   width: 100vw;
   height: 75%;
+  
 `;
 

@@ -13,7 +13,8 @@ export const COLORS = {
     violet_RGB: 'rgb(27, 24, 87)',
     background: 'rgb(70,81,91)', //blau grau
     header: 'rgb(255, 165, 0)', // gelb
-    headline: 'rgb(84, 176, 159)', // gelb
+    header_NUM: '255, 206, 115', // hellgelb
+    headline: 'rgb(84, 176, 159)', // helltürkis
     footer: 'rgb(51, 112, 101)',
     background1_NUM: '147, 186, 163',
     background2_NUM: '205, 151, 151' /* rosa*/,

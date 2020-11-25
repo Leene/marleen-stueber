@@ -82,7 +82,7 @@ let toShow
 
 const Nav = styled.nav`
   position: fixed;
-  width: 100%;
+  width: 100vw;
   box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
   background-color: ${COLORS.background};
 

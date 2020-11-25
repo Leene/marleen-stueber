@@ -9,10 +9,16 @@ import Expirience from './components/Expirience'
 import Projects from './components/Projects'
 import { COLORS, VIEWPORT } from "./constants";
 import Contact from "./components/Contact";
+import GlobalStyle from "./components/GlobalStyle";
+
+
+import GoogleFontLoader from 'react-google-font-loader';
+
 
 function App() {
     return (
         <APP className="App">
+            <GlobalStyle />
             <Wrap>
                 <Header />
                 
@@ -71,7 +77,7 @@ const APP = styled.div`
     height: 100%;
     color: rgb(${COLORS.lightText});
 
-    & h2{
+    & h3{
 
         color:${COLORS.headline};
         text-align:center;
