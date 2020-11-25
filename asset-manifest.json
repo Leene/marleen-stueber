@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/marleen-stueber/static/css/main.06e939ba.chunk.css",
-    "main.js": "/marleen-stueber/static/js/main.f55242a6.chunk.js",
-    "main.js.map": "/marleen-stueber/static/js/main.f55242a6.chunk.js.map",
-    "runtime-main.js": "/marleen-stueber/static/js/runtime-main.9e08d547.js",
-    "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.9e08d547.js.map",
-    "static/js/2.7abc9c88.chunk.js": "/marleen-stueber/static/js/2.7abc9c88.chunk.js",
-    "static/js/2.7abc9c88.chunk.js.map": "/marleen-stueber/static/js/2.7abc9c88.chunk.js.map",
-    "static/js/3.44928d2e.chunk.js": "/marleen-stueber/static/js/3.44928d2e.chunk.js",
-    "static/js/3.44928d2e.chunk.js.map": "/marleen-stueber/static/js/3.44928d2e.chunk.js.map",
+    "main.css": "/marleen-stueber/static/css/main.353c6474.chunk.css",
+    "main.js": "/marleen-stueber/static/js/main.dba9f9ff.chunk.js",
+    "main.js.map": "/marleen-stueber/static/js/main.dba9f9ff.chunk.js.map",
+    "runtime-main.js": "/marleen-stueber/static/js/runtime-main.e6c86f24.js",
+    "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.e6c86f24.js.map",
+    "static/js/2.862a0b81.chunk.js": "/marleen-stueber/static/js/2.862a0b81.chunk.js",
+    "static/js/2.862a0b81.chunk.js.map": "/marleen-stueber/static/js/2.862a0b81.chunk.js.map",
+    "static/js/3.51b9e09b.chunk.js": "/marleen-stueber/static/js/3.51b9e09b.chunk.js",
+    "static/js/3.51b9e09b.chunk.js.map": "/marleen-stueber/static/js/3.51b9e09b.chunk.js.map",
     "index.html": "/marleen-stueber/index.html",
-    "static/css/main.06e939ba.chunk.css.map": "/marleen-stueber/static/css/main.06e939ba.chunk.css.map",
-    "static/js/2.7abc9c88.chunk.js.LICENSE.txt": "/marleen-stueber/static/js/2.7abc9c88.chunk.js.LICENSE.txt",
+    "static/css/main.353c6474.chunk.css.map": "/marleen-stueber/static/css/main.353c6474.chunk.css.map",
+    "static/js/2.862a0b81.chunk.js.LICENSE.txt": "/marleen-stueber/static/js/2.862a0b81.chunk.js.LICENSE.txt",
     "static/media/GameOverDialog.021a01b0.png": "/marleen-stueber/static/media/GameOverDialog.021a01b0.png",
     "static/media/ingame_view.e6693597.png": "/marleen-stueber/static/media/ingame_view.e6693597.png",
     "static/media/marleen_stueber_quadrat.1f0e51d8.png": "/marleen-stueber/static/media/marleen_stueber_quadrat.1f0e51d8.png",
     "static/media/startArea.749f4b87.png": "/marleen-stueber/static/media/startArea.749f4b87.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e08d547.js",
-    "static/js/2.7abc9c88.chunk.js",
-    "static/css/main.06e939ba.chunk.css",
-    "static/js/main.f55242a6.chunk.js"
+    "static/js/runtime-main.e6c86f24.js",
+    "static/js/2.862a0b81.chunk.js",
+    "static/css/main.353c6474.chunk.css",
+    "static/js/main.dba9f9ff.chunk.js"
   ]
 }
