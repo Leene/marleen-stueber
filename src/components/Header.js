@@ -197,12 +197,13 @@ const ImgLeft = styled.img`
 `;
 
 const ImgCenter = styled.img`
-  height: 87vw;
-  width: 87vw;
+
+  height: 90vw;
+  width: 90vw;
   border-radius: 50%;
   box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
-
-  margin-top: 30px;
+margin-top:30px;
+  
 
   ${VIEWPORT.small} {
    

@@ -25,6 +25,9 @@ export default function Projects() {
                 Git-Repository
             </URLBtn> 
             </URLBtnDiv>
+            
+            
+           
             <Screens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -42,7 +45,7 @@ export default function Projects() {
 
 
 
-            <h6>Codesandbox</h6>
+            
             <SmallScreens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -58,7 +61,7 @@ export default function Projects() {
                 </Figure>
             </SmallScreens>
 
-
+            <h6>Codesandbox</h6>
             <div>
                 <IFrame
                     src="https://codesandbox.io/embed/emmet-typing-game-76fn3?fontsize=14&hidenavigation=1&theme=dark&view=split&editorsize=55"
@@ -82,6 +85,7 @@ export default function Projects() {
 
 const URLBtnDiv = styled.div`
 margin-top:50px;
+margin-bottom:50px;
 
 
 `
