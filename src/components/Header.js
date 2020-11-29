@@ -37,8 +37,8 @@ export default function Header() {
 
         <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
           <path
-            fill="#008080"
-            fill-opacity="0.5"
+            fill="#55988f"
+            fill-opacity="1"
             d="M0,224L1440,32L1440,220L0,220Z"
           ></path>
         </Svg>

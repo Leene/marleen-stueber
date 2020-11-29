@@ -15,7 +15,8 @@ export const COLORS = {
     header: 'rgb(255, 165, 0)', // gelb
     header_NUM: '255, 206, 115', // hellgelb
     headline: 'rgb(84, 176, 159)', // helltürkis
-    footer: 'rgb(51, 112, 101)',
+    footer: 'rgb(84, 176, 159)',
+    footer_alt: 'rgb(51, 112, 101)',// türkis
     background1_NUM: '147, 186, 163',
     background2_NUM: '205, 151, 151' /* rosa*/,
 

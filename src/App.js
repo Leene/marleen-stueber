@@ -54,7 +54,7 @@ function App() {
                         viewBox="0 0 1440 320"
                     >
                         <path
-                            fill="#337065"
+                            fill="#55988f"
                             fill-opacity="1"
                             d="M0,96L1440,224L1440,320L0,320Z"
                         ></path>
