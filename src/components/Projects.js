@@ -14,20 +14,6 @@ export default function Projects() {
             <h3>Projekte</h3>
             <h4>Emmet Typing Game</h4>
             <p> Abschlussprojekt (Web Developer Bootcamp Januar - März 2020)</p>
-            
-            <URLBtnDiv>
-            <URLBtn
-                title="Zum Github-Repository von Emmet Typing Game"
-                href="https://github.com/Leene/capstone-project"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Git-Repository
-            </URLBtn> 
-            </URLBtnDiv>
-            
-            
-           
             <Screens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -61,22 +47,32 @@ export default function Projects() {
                 </Figure>
             </SmallScreens>
 
-            <h6>Codesandbox</h6>
-            <div>
-                <IFrame
-                    src="https://codesandbox.io/embed/emmet-typing-game-76fn3?fontsize=14&hidenavigation=1&theme=dark&view=split&editorsize=55"
-                    title="Emmet Typing Game"
-                    allow=" accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-                ></IFrame>
-                <SmallIFrame
-                    src="https://codesandbox.io/embed/emmet-typing-game-76fn3?fontsize=14&hidenavigation=1&theme=dark&view=editor&editorsize=20"
-                    title="Emmet Typing Game"
-                    allow=" accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-                ></SmallIFrame>
-                
-            </div>
+            <URLBtnDiv>
+            <URLBtn
+                title="Zum Github-Repository von Emmet Typing Game"
+                href="https://github.com/Leene/capstone-project"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Git-Repository
+            </URLBtn>
+
+            <URLBtn
+                title="Zur Demo von Emmet Typing Game"
+                href="https://leene.github.io/emmet-typing-game/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Demo
+            </URLBtn> 
+            </URLBtnDiv>
+            
+            
+            
+           
+            
+
+            
     
         </Section>
     )
@@ -85,7 +81,7 @@ export default function Projects() {
 
 const URLBtnDiv = styled.div`
 margin-top:50px;
-margin-bottom:50px;
+margin-bottom:100px;
 
 
 `
@@ -102,6 +98,7 @@ cursor: pointer;
     letter-spacing: 1px;
     box-shadow: 1px 2px 3px 3px rgba(58, 32, 10, 0.2);
     
+    margin:auto 20px;
     padding: 10px;
     &:hover {
         background-color: ${COLORS.headline};
@@ -114,6 +111,7 @@ const Section = styled.section`
 background-color:#59636C;
 margin-top:-5px;
 margin-bottom:50px;
+padding-bottom: 10px;
 ${VIEWPORT.small} {
 }
 
@@ -224,11 +222,6 @@ const SmallScreens = styled.div`
     }
     
 `
-
-
-
-
-
 
 const IFrame = styled.iframe`
     overflow: hidden;

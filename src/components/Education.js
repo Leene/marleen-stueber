@@ -144,7 +144,9 @@ ${VIEWPORT.large} {
 `
 
 
-const Section = styled.section``
+const Section = styled.section`
+
+`
 
 const LeftText = styled.div`
     text-align: left;
