@@ -14,6 +14,31 @@ export default function Projects() {
             <h3>Projekte</h3>
             <h4>Emmet Typing Game</h4>
             <p> Abschlussprojekt (Web Developer Bootcamp Januar - März 2020)</p>
+
+
+            <URLBtnDiv>
+            <URLBtn
+                title="Zur Demo von Emmet Typing Game"
+                href="https://Leene.github.io/emmet-typing-game/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Demo
+            </URLBtn> 
+            <URLBtn
+                title="Zum Github-Repository von Emmet Typing Game"
+                href="https://github.com/Leene/capstone-project"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Git-Repository
+            </URLBtn>
+
+
+             
+            </URLBtnDiv>
+          
+           
             <Screens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -29,9 +54,6 @@ export default function Projects() {
                 </Figure>
             </Screens>
 
-
-
-            
             <SmallScreens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>
@@ -47,63 +69,13 @@ export default function Projects() {
                 </Figure>
             </SmallScreens>
 
-            <URLBtnDiv>
-            <URLBtn
-                title="Zum Github-Repository von Emmet Typing Game"
-                href="https://github.com/Leene/capstone-project"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Git-Repository
-            </URLBtn>
-
-            <URLBtn
-                title="Zur Demo von Emmet Typing Game"
-                href="https://leene.github.io/emmet-typing-game/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Demo
-            </URLBtn> 
-            </URLBtnDiv>
-            
-            
-            
-           
-            
-
-            
     
+         
         </Section>
     )
 }
 
 
-const URLBtnDiv = styled.div`
-margin-top:50px;
-margin-bottom:100px;
-
-
-`
-
-const URLBtn = styled.a`
-
-cursor: pointer;
-    background-color: rgba(${COLORS.lightText},0.3);
-    text-transform: uppercase;
-    color: rgb(${COLORS.lightText});
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    box-shadow: 1px 2px 3px 3px rgba(58, 32, 10, 0.2);
-    
-    margin:auto 20px;
-    padding: 10px;
-    &:hover {
-        background-color: ${COLORS.headline};
-    }
-`
 
 
 
@@ -188,6 +160,7 @@ const Screens = styled.div`
 margin-top:50px;
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 
     ${VIEWPORT.small} {
         display:none;
@@ -209,6 +182,7 @@ const SmallScreens = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 100px;
     ${VIEWPORT.small} {
         
     }
@@ -223,52 +197,29 @@ const SmallScreens = styled.div`
     
 `
 
-const IFrame = styled.iframe`
-    overflow: hidden;
-    border: 0;
-    box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
-    width: 860px;
-    height: 667px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    ${VIEWPORT.small} {
-    display:none;
-    }
-  
-    ${VIEWPORT.medium} {
-        display:none;
+const URLBtnDiv = styled.div`
+margin-top:50px;
+margin-bottom:50px;
+`
 
-    }
-  
-    ${VIEWPORT.large} {
-     
-    }
-    `
+const URLBtn = styled.a`
+border: none;
+background-color: rgba(${COLORS.lightText},0.3);
+text-transform: uppercase;
+color: rgb(${COLORS.lightText});
+font-weight: bold;
+letter-spacing: 1px;
+text-decoration: none;
 
+box-shadow: 1px 2px 3px 3px rgba(58, 32, 10, 0.2);
+margin:auto 20px;
+padding: 10px;
 
-const SmallIFrame = styled.iframe`
-    overflow: hidden;
-    border: 0;
-    box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
-    width: 90vw;
-    height: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-    ${VIEWPORT.small} {
-    
+&:hover {
+        background-color: ${COLORS.headline};
+       
     }
-  
-    ${VIEWPORT.medium} {
-     
-    }
-  
-    ${VIEWPORT.large} {
-      
-      display:none;
-
-    }
-    `
+`
 
 
 
