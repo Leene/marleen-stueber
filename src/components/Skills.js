@@ -18,7 +18,7 @@ export default function Skills() {
           <TD>
             <p>
               Javascript, React.js, JSX, HTML/CSS, Illustrator, InDesign,
-              Photoshop, Java, Funktionale Programmierung
+              Photoshop, Java 8, Funktionale Programmierung
             </p>
           </TD>
         </tr>
@@ -29,7 +29,7 @@ export default function Skills() {
           <TD>
             <p>
               Objektorientierte Programmierung (Java), Unity 3D, MySQL, Jira,
-              Redmine, VS Code, Eclipse
+              Redmine, Github, VS Code, Eclipse
             </p>
           </TD>
         </tr>
@@ -44,7 +44,7 @@ export default function Skills() {
           <TD>
             <p>
               Javascript, React.js, JSX, HTML/CSS, Illustrator, InDesign,
-              Photoshop, Java, Funktionale Programmierung
+              Photoshop, Java 8, Funktionale Programmierung
             </p>
           </TD>
         </tr>
@@ -57,7 +57,7 @@ export default function Skills() {
           <TD>
             <p>
               Objektorientierte Programmierung (Java), Unity 3D, MySQL, Jira,
-              Redmine, VS Code, Eclipse
+              Redmine, Github, VS Code, Eclipse
             </p>
           </TD>
         </tr>
@@ -68,7 +68,7 @@ export default function Skills() {
 
 const H4 = styled.h4`
   text-align: left;
-  
+
   ${VIEWPORT.small} {
     margin-bottom: 0px;
   }
