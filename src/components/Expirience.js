@@ -72,6 +72,7 @@ const h4 = styled.h4`
 
 const Section = styled.section`
   background-color: #59636c;
+  padding-top: 30px;
   padding-bottom: 150px;
   margin-bottom: 0px;
   margin-top: -5px;

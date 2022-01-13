@@ -21,6 +21,7 @@ const Section = styled.section`
   background-color: #59636c;
   margin-top: -5px;
   margin-bottom: 50px;
+  padding-top: 30px;
   padding-bottom: 10px;
   ${VIEWPORT.small} {
   }
