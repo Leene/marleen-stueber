@@ -18,7 +18,7 @@ export default function HungryWalker() {
         </VideoContainer>
         <DescriptionDiv>
           <P>
-            Ich habe mich in den letzten Wochen (Okt/Nov 2021) viel mit
+            Ich habe mich in den letzten Wochen (Okt/Nov 2021) erstmalig mit
             App-Entwicklung befasst. Dabei ist diese Einkaufslisten-App mit
             React Native, Expo und SQLite entstanden. Man kann mit ihr mehrere
             Listen verwalten und den einzelnen Produkten ein bevorzugtes
@@ -28,8 +28,9 @@ export default function HungryWalker() {
           </P>
           <P>
             (SQLite wird für das Web nicht unterstützt, daher kann man die App
-            nicht vollständig über einen Expo-Link testen. Stattdessen gibt es
-            das nebenstehende Video und einen Link zum Github-Repository)
+            scheinbar nicht vollständig über einen Expo-Link ausprobieren.
+            Stattdessen gibt es das nebenstehende Video und einen Link zum
+            Github-Repository)
           </P>
 
           <URLBtnDiv>
@@ -146,6 +147,7 @@ const URLBtn = styled.a`
 
   &:hover {
     background-color: ${COLORS.headline};
+    transition: 0.3s;
   }
 `;
 

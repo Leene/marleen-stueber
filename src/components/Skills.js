@@ -6,10 +6,10 @@ import { COLORS, VIEWPORT } from "../constants";
 export default function Skills() {
   return (
     <section id="skills">
-      {" "}
       {/* Computerkennnisse */}
       <Img src={Maus} />
       <H3>Computer&shy;kenntnisse</H3>
+
       <Table>
         <tr>
           <td>

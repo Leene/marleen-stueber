@@ -102,6 +102,7 @@ const URLBtn = styled.a`
 
   &:hover {
     background-color: ${COLORS.headline};
+    transition: 0.3s;
   }
 `;
 
