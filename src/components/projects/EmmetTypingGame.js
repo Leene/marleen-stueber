@@ -1,13 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { COLORS, VIEWPORT } from "../../constants";
-import Screen1 from "../../img/startArea.png";
-import Screen2 from "../../img/ingame_view.png";
-import Screen3 from "../../img/GameOverDialog.png";
-import Screen1HW from "../../img/hungryWalkerScreenShots/HungryWalkerScreenshot1.png";
-//import Screen2HW from "../img/GameOverDialog.png";
-//import Screen3HW from "../img/GameOverDialog.png";
-import Klammer from "../../img/icon_klammer_white.png";
+import Screen1 from "../../img/EmmetGameScreenshots/startArea.png";
+import Screen2 from "../../img/EmmetGameScreenshots/ingameView.png";
+import Screen3 from "../../img/EmmetGameScreenshots/gameOverDialog.png";
+import Screen4 from "../../img/EmmetGameScreenshots/highscore2Tabelle.png";
 
 {
   /*///Emmet Typing Game ////////////////*/
@@ -20,7 +17,7 @@ export default function EmmetTypingGame() {
         <P> Abschlussprojekt (Web Developer Bootcamp Januar - März 2020)</P>
         <P>
           Verwendet wurde React.js mit funktionaler Programmierung, Styled
-          Components, Reach Router, Props und State Hooks
+          Components, Reach Router, Props, State Hooks und Firebase
         </P>
       </DescriptionDiv>
 
@@ -55,6 +52,10 @@ export default function EmmetTypingGame() {
           <figcaption>Ende des Spiels</figcaption>
           <IMG src={Screen3} />
         </Figure>
+        <Figure>
+          <figcaption>Punktetabelle</figcaption>
+          <IMG src={Screen4} />
+        </Figure>
       </Screens>
       <SmallScreens>
         <Figure>
@@ -68,6 +69,10 @@ export default function EmmetTypingGame() {
         <Figure>
           <figcaption>Ende des Spiels</figcaption>
           <IMG src={Screen3} />
+        </Figure>
+        <Figure>
+          <figcaption>Punktetabelle</figcaption>
+          <IMG src={Screen4} />
         </Figure>
       </SmallScreens>
     </>

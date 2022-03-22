@@ -7,7 +7,6 @@ export default function Education() {
   return (
     <>
       <Section id="education">
-        {" "}
         {/* Aus-/Fortbildungen */}
         <Img src={Talar} />
         <h3>Aus- und Fortbildungen (Auszug)</h3>
@@ -79,7 +78,7 @@ export default function Education() {
             <li>entspricht inhaltlich einem Studium der Medieninformatik</li>
             <li>
               Kenntnisse u.a.: Java 8, MySQL, Logik, Relationale Datenbanken,
-              Objektorientierte Programmierung, Mathemathik für Informatiker,
+              Objektorientierte Programmierung, Mathematik für Informatiker,
               Motion Capture, Assembler, Ruby, Verschlüsselungsalgorithmen
             </li>
             <li>05/2020 Exmatrikulation ohne Abschluss</li>

@@ -9,7 +9,6 @@ import Expirience from "./components/Expirience";
 import Projects from "./components/Projects";
 import { COLORS, VIEWPORT } from "./constants";
 import Contact from "./components/Contact";
-import Contact2 from "./components/Contact2";
 import GlobalStyle from "./components/GlobalStyle";
 
 import GoogleFontLoader from "react-google-font-loader";
@@ -42,7 +41,7 @@ function App() {
             <path fill="#09ac86" d="M0,96L1440,224L1440,320L0,320Z"></path>
           </Svg2>
           <ContactDiv>
-            <Contact2 />
+            <Contact />
           </ContactDiv>
 
           <p>© 2022 Marleen Stüber</p>

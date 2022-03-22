@@ -28,8 +28,9 @@ export default function Skills() {
           </td>
           <TD>
             <p>
-              React Native, SQLite, Expo, Objektorientierte Programmierung
-              (Java), Unity 3D, MySQL, Jira, Redmine, Github, VS Code, Eclipse
+              Firebase, React Native, SQLite, Expo, Objektorientierte
+              Programmierung (Java), Unity 3D, MySQL, Jira, Redmine, Github, VS
+              Code, Eclipse
             </p>
           </TD>
         </tr>
@@ -56,8 +57,9 @@ export default function Skills() {
         <tr>
           <TD>
             <p>
-              Objektorientierte Programmierung (Java), Unity 3D, MySQL, Jira,
-              Redmine, Github, VS Code, Eclipse
+              Firebase, React Native, SQLite, Expo, Objektorientierte
+              Programmierung (Java), Unity 3D, MySQL, Jira, Redmine, Github, VS
+              Code, Eclipse
             </p>
           </TD>
         </tr>

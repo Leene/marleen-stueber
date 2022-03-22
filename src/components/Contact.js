@@ -4,32 +4,38 @@ import styled, { keyframes } from "styled-components";
 
 export default function Contact() {
   return (
-    <DIV>
-      <IconWrapper>
-        <a
-          href="https://github.com/Leene"
-          target="_blank"
-          rel="noreferrer"
-          title="Mein Github-Profil"
-        >
-          <Img src="https://img.icons8.com/ios-glyphs/480/ffffff/github.png" />
-        </a>
-        <a
-          href="https://www.xing.com/profile/Marleen_Stueber/cv"
-          target="_blank"
-          rel="noreferrer"
-          title="Mein Xing-Profil"
-        >
-          <Img2 src="https://img.icons8.com/fluency-systems-filled/144/ffffff/xing.png" />
-        </a>
-        <a
-          href="mailto:marleenstueber@web.de"
-          title="E-Mail an marleenstueber@web.de"
-        >
-          <Img3 src="https://img.icons8.com/material-outlined/384/ffffff/new-post.png" />
-        </a>
-      </IconWrapper>
-    </DIV>
+    <IconWrapper>
+      <a
+        href="https://github.com/Leene"
+        target="_blank"
+        rel="noreferrer"
+        title="Mein Github-Profil"
+      >
+        <Img src="https://img.icons8.com/ios-glyphs/480/ffffff/github.png" />
+      </a>
+      <a
+        href="https://www.xing.com/profile/Marleen_Stueber/cv"
+        target="_blank"
+        rel="noreferrer"
+        title="Mein Xing-Profil"
+      >
+        <Img2 src="https://img.icons8.com/fluency-systems-filled/144/ffffff/xing.png" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/marleen-st%C3%BCber-7645241b6/"
+        target="_blank"
+        rel="noreferrer"
+        title="Mein LinkedIn-Profil"
+      >
+        <Img3 src="https://img.icons8.com/ios-filled/500/ffffff/linkedin-circled--v1.png" />
+      </a>
+      <a
+        href="mailto:marleenstueber@web.de"
+        title="E-Mail an marleenstueber@web.de"
+      >
+        <Img4 src="https://img.icons8.com/material-outlined/384/ffffff/new-post.png" />
+      </a>
+    </IconWrapper>
   );
 }
 
@@ -58,7 +64,7 @@ const IconFadeIn2 = keyframes`
   transform: scale(50%);
   opacity:0;
 }
-40% {
+30% {
   transform: scale(50%);
   opacity:0;
 }
@@ -76,7 +82,25 @@ const IconFadeIn3 = keyframes`
   transform: scale(50%);
   opacity:0;
 }
-60% {
+40% {
+  transform: scale(50%);
+  opacity:0;
+}
+80% {
+  transform: scale(120%); 
+}
+100% {
+  transform: scale(100%); 
+  opacity:1;
+}
+`;
+
+const IconFadeIn4 = keyframes`
+0% {
+  transform: scale(50%);
+  opacity:0;
+}
+50% {
   transform: scale(50%);
   opacity:0;
 }
@@ -104,25 +128,56 @@ const Img3 = styled.img`
   animation-name: ${IconFadeIn3};
   animation-duration: 2s;
 `;
-
-const IconWrapper = styled.div`
-  z-index: 0;
-  width: 450px;
-  border: 3px solid red;
-  display: flex;
-  justify-content: space-evenly;
-  img {
-    width: 100px;
-    height: 100px;
-    &:hover {
-      width: 120px;
-      height: 120px;
-      transition: 0.3s;
-      margin: -10px;
-    }
-  }
+const Img4 = styled.img`
+  animation-name: ${IconFadeIn4};
+  animation-duration: 2s;
 `;
 
-const DIV = styled.div`
-  margin-top: 50px;
+const IconWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    &:hover {
+      width: 80px;
+      height: 80px;
+      transition: 0.3s;
+      margin: -10px;
+
+      ${VIEWPORT.small} {
+        width: 50px;
+        height: 50px;
+        margin: -5px;
+      }
+
+      ${VIEWPORT.medium} {
+        width: 60px;
+        height: 60px;
+        margin: -5px;
+      }
+
+      ${VIEWPORT.large} {
+      }
+    }
+    ${VIEWPORT.small} {
+      width: 40px;
+      height: 40px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+
+    ${VIEWPORT.medium} {
+      width: 50px;
+      height: 50px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+
+    ${VIEWPORT.large} {
+    }
+  }
 `;
