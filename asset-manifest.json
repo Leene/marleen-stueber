@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/marleen-stueber/static/css/main.6cc713e3.chunk.css",
-    "main.js": "/marleen-stueber/static/js/main.85e47726.chunk.js",
-    "main.js.map": "/marleen-stueber/static/js/main.85e47726.chunk.js.map",
+    "main.js": "/marleen-stueber/static/js/main.aaac4410.chunk.js",
+    "main.js.map": "/marleen-stueber/static/js/main.aaac4410.chunk.js.map",
     "runtime-main.js": "/marleen-stueber/static/js/runtime-main.a7d4cff9.js",
     "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.a7d4cff9.js.map",
     "static/js/2.586a3794.chunk.js": "/marleen-stueber/static/js/2.586a3794.chunk.js",
@@ -12,19 +12,20 @@
     "index.html": "/marleen-stueber/index.html",
     "static/css/main.6cc713e3.chunk.css.map": "/marleen-stueber/static/css/main.6cc713e3.chunk.css.map",
     "static/js/2.586a3794.chunk.js.LICENSE.txt": "/marleen-stueber/static/js/2.586a3794.chunk.js.LICENSE.txt",
-    "static/media/GameOverDialog.021a01b0.png": "/marleen-stueber/static/media/GameOverDialog.021a01b0.png",
     "static/media/HungryWalkerApp.86e5f22f.mp4": "/marleen-stueber/static/media/HungryWalkerApp.86e5f22f.mp4",
     "static/media/HungryWalkerScreenshot1.e3fcc63d.png": "/marleen-stueber/static/media/HungryWalkerScreenshot1.e3fcc63d.png",
     "static/media/HungryWalkerScreenshot2.ed9f7ef9.png": "/marleen-stueber/static/media/HungryWalkerScreenshot2.ed9f7ef9.png",
     "static/media/HungryWalkerScreenshot3.ad2c9b4d.png": "/marleen-stueber/static/media/HungryWalkerScreenshot3.ad2c9b4d.png",
-    "static/media/ingame_view.e6693597.png": "/marleen-stueber/static/media/ingame_view.e6693597.png",
+    "static/media/gameOverDialog.50bb5cb1.png": "/marleen-stueber/static/media/gameOverDialog.50bb5cb1.png",
+    "static/media/highscore2Tabelle.b73740e5.png": "/marleen-stueber/static/media/highscore2Tabelle.b73740e5.png",
+    "static/media/ingameView.f9a78e51.png": "/marleen-stueber/static/media/ingameView.f9a78e51.png",
     "static/media/marleen_stueber_quadrat.1f0e51d8.png": "/marleen-stueber/static/media/marleen_stueber_quadrat.1f0e51d8.png",
-    "static/media/startArea.749f4b87.png": "/marleen-stueber/static/media/startArea.749f4b87.png"
+    "static/media/startArea.d6c302bf.png": "/marleen-stueber/static/media/startArea.d6c302bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a7d4cff9.js",
     "static/js/2.586a3794.chunk.js",
     "static/css/main.6cc713e3.chunk.css",
-    "static/js/main.85e47726.chunk.js"
+    "static/js/main.aaac4410.chunk.js"
   ]
 }
