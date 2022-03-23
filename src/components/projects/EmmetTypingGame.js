@@ -6,9 +6,6 @@ import Screen2 from "../../img/EmmetGameScreenshots/ingameView.png";
 import Screen3 from "../../img/EmmetGameScreenshots/gameOverDialog.png";
 import Screen4 from "../../img/EmmetGameScreenshots/highscore2Tabelle.png";
 
-{
-  /*///Emmet Typing Game ////////////////*/
-}
 export default function EmmetTypingGame() {
   return (
     <>
@@ -32,7 +29,7 @@ export default function EmmetTypingGame() {
         </URLBtn>
         <URLBtn
           title="Zum Github-Repository von Emmet Typing Game"
-          href="https://github.com/Leene/emmet-typing-game"
+          href="https://github.com/Leene/emmet-typing-game/tree/master"
           target="_blank"
           rel="noopener noreferrer"
         >

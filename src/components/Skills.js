@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Maus from "../img/icon_maus_white.png";
-import { COLORS, VIEWPORT } from "../constants";
+import { VIEWPORT } from "../constants";
 
 export default function Skills() {
   return (
