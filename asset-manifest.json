@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/marleen-stueber/static/css/main.6cc713e3.chunk.css",
-    "main.js": "/marleen-stueber/static/js/main.aaac4410.chunk.js",
-    "main.js.map": "/marleen-stueber/static/js/main.aaac4410.chunk.js.map",
+    "main.js": "/marleen-stueber/static/js/main.c4ff7a1c.chunk.js",
+    "main.js.map": "/marleen-stueber/static/js/main.c4ff7a1c.chunk.js.map",
     "runtime-main.js": "/marleen-stueber/static/js/runtime-main.a7d4cff9.js",
     "runtime-main.js.map": "/marleen-stueber/static/js/runtime-main.a7d4cff9.js.map",
     "static/js/2.586a3794.chunk.js": "/marleen-stueber/static/js/2.586a3794.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.a7d4cff9.js",
     "static/js/2.586a3794.chunk.js",
     "static/css/main.6cc713e3.chunk.css",
-    "static/js/main.aaac4410.chunk.js"
+    "static/js/main.c4ff7a1c.chunk.js"
   ]
 }
